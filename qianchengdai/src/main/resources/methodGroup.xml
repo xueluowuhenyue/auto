@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="method">
+    <test name ="methodGroup">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.source.testNg.methodGroups.Login"/>
+        </classes>
+    </test>
+</suite>

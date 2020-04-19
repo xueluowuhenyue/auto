@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="log">
+    <test name="parameter">
+        <classes>
+            <parameter name="name" value="小明"/>     <!--name对应需要传入参数名 即名字-->
+            <parameter name="age" value="18"/>       <!--age对应需要传入参数名 即年龄-->
+            <class name="com.source.testNg.practice.ParameterTest"/>
+        </classes>
+    </test>
+</suite>

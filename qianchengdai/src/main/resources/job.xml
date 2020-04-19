@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="running">
+<!--    运行所有分组-->
+    <test name="runAll">
+        <classes>
+            <class name="com.source.testNg.classGroups.GroupClass1"/>
+            <class name="com.source.testNg.classGroups.GroupClass2"/>
+            <class name="com.source.testNg.classGroups.GroupClass3"/>
+        </classes>
+    </test>
+<!--运行选择分组-->
+    <test name="runStudent">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.source.testNg.classGroups.GroupClass1"/>
+            <class name="com.source.testNg.classGroups.GroupClass2"/>
+            <class name="com.source.testNg.classGroups.GroupClass3"/>
+        </classes>
+    </test>
+</suite>

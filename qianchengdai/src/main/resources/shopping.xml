@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="shopping">
+    <test name="login">
+        <classes>
+            <class name="com.source.testNg.flag.suiteConfig"/>
+            <class name="com.source.testNg.flag.Login"/>
+            <class name="com.source.testNg.flag.Pay"/>
+        </classes>
+    </test>
+<!--    <test name="pay">-->
+<!--        <classes>-->
+<!--            <class name="com.source.testNg.flag.suiteConfig"/>-->
+<!--            <class name="com.source.testNg.flag.Pay"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
